@@ -1,0 +1,13 @@
+description: Toko online Uwiechanshop
+permalink: /:title
+title: Uwiechanshop
+name: Dwi Handayani
+compress_html:
+  clippings: all
+  comments: []
+  endings: []
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
