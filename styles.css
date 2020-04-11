@@ -92,30 +92,13 @@ header {
 padding:2.5em 0;
 }
 
-button {
-font-family:"Noto Serif",Georgia,serif;
-font-size:1.125em;
-display: block;
-margin:0 auto;
-padding: 0.25em 0.45em;
-border-radius: 3px;
-text-transform: uppercase;
-background: #d04160;
-color: #fdfdfd;
--webkit-transition: background 0.1s, color 0.1s;
-transition: background 0.1s, color 0.1s;
-}
-
-button a, button a:hover {
-text-decoration:none
-}
-
 time {
 font-size:95%;
 opacity:.5
 }
 
 article {
+border-top:1px solid #DCDCDC;
 width:80%;
 margin:0 auto;
 padding:1.5em 0
