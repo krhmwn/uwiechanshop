@@ -24,8 +24,8 @@ layout: compress
 </head>
 <body>
 <div class="container">
-<nav><ul><li><a href="/">Beranda</a></li><li><a href="https://api.whatsapp.com/send?phone=628176423812&text=Assalamualaykum%2C%20saya%20mau%20pesan%20...">WA 08176423812</a></li></ul></nav>
-<header><h1><button>{{ site.title }}</button></h1></header>
+<header>{{ site.title }}</header>
+<nav><ul><li><button><a href="/">{{ site.title }}</a></button></li><li><a href="https://api.whatsapp.com/send?phone=628176423812&text=Assalamualaykum%2C%20saya%20mau%20pesan%20...">WA 08176423812</a></li></ul></nav>
 {{ content }}
 <footer>&copy; 2019-{{ site.time | date: "%Y" }} <a href="/">{{ site.title }}</a></footer>
 </div>
