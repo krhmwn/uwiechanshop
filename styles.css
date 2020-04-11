@@ -106,7 +106,7 @@ opacity:.5
 article {
 width:80%;
 margin:0 auto;
-padding:3em 0
+padding:1.5em 0
 }
 
 .post {
@@ -115,7 +115,7 @@ text-align:left;
 top:-1em
 }
 
-.nextprev {
+.share {
 border-top:1px solid #DCDCDC
 }
 
