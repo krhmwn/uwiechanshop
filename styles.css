@@ -99,13 +99,11 @@ opacity:.5
 
 article {
 border-top:1px solid #DCDCDC;
-width:80%;
 margin:0 auto;
 padding:2em 0
 }
 
 .post {
-border:none;
 text-align:left;
 top:-1em
 }
