@@ -137,10 +137,6 @@ padding:3% 6%
 article {
 width:100%
 }
-
-.share li {
-display:block;
-}
 }
 
 @media only screen and (max-width: 47.9999em) {
