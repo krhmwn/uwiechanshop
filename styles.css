@@ -51,7 +51,7 @@ margin:0
 }
 
 li {
-margin:0 1em
+margin:0 0.75em
 }
 
 img {
@@ -108,8 +108,9 @@ text-align:left;
 top:-1em
 }
 
-.share {
-
+.share li {
+display:inline;
+list-style:none
 }
 
 footer {
@@ -136,6 +137,10 @@ padding:3% 6%
 article {
 width:100%
 }
+
+.share li {
+display:block;
+}
 }
 
 @media only screen and (max-width: 47.9999em) {
@@ -151,5 +156,9 @@ padding:5%
 
 article {
 width:100%
+}
+
+.share li {
+display:block;
 }
 }
