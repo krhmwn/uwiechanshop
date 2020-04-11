@@ -84,7 +84,8 @@ text-align:center
 }
 
 nav {
-padding:1.5em 0
+padding:1.5em 0;
+border-top:1px solid #DCDCDC
 }
 
 nav li {
@@ -94,15 +95,14 @@ list-style:none
 
 header {
 padding:2.5em 0;
-border-top:1px solid #DCDCDC;
-border-bottom:1px solid #DCDCDC
 }
 
 button {
+font-family:"Noto Serif",Georgia,serif;
+font-size:1.125em;
 display: block;
 margin:0 auto;
-padding: 1em 2.5em;
-border: 2px solid #d04160;
+padding: 1em 1.125em;
 border-radius: 3px;
 text-transform: uppercase;
 background: #d04160;
@@ -129,7 +129,7 @@ top:-1em
 }
 
 .share {
-border-top:1px solid #DCDCDC
+
 }
 
 footer {
