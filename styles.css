@@ -21,16 +21,11 @@ margin-bottom:.5em
 }
 
 h1 {
-font-size:2.25em;
-line-height:1.1em
-}
-
-h2 {
 font-size:1.5em;
 line-height:1.2em
 }
 
-h3 {
+h2 {
 font-size:1.125em
 }
 
@@ -102,13 +97,17 @@ font-family:"Noto Serif",Georgia,serif;
 font-size:1.125em;
 display: block;
 margin:0 auto;
-padding: 1em 1.125em;
+padding: 0.25em 0.45em;
 border-radius: 3px;
 text-transform: uppercase;
 background: #d04160;
 color: #fdfdfd;
 -webkit-transition: background 0.1s, color 0.1s;
 transition: background 0.1s, color 0.1s;
+}
+
+button a, button a:hover {
+text-decoration:none
 }
 
 time {
