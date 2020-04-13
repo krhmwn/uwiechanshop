@@ -136,16 +136,14 @@ display:none
 }
 
 table{
-	background-color:white;
+	background-color:#ffffff;
 	width:98%;
 	border-collapse:collapse;
-	border-radius:10px;
-	overflow:hidden; /* to clip the rounded corners */
 	margin:1%;
 }
 thead{
 	background-color:#d04160;
-	text-align:center;
+	color:#fdfdfd;
 }
 th{
 	padding:.5rem;
@@ -226,11 +224,14 @@ height: auto;
 display: block;
 vertical-align: top;
 }
-  
-  tr{
-		display:block;
-		margin-bottom:2em;
-	}
+table{
+width:100%;
+}
+
+tr{
+display:block;
+margin-bottom:2em;
+}
 	td{
 		display:block;
 		border-top:none;
