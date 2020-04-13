@@ -135,6 +135,45 @@ font-size:90%
 display:none
 }
 
+table{
+	background-color:white;
+	width:98%;
+	border-collapse:collapse;
+	border-radius:10px;
+	overflow:hidden; /* to clip the rounded corners */
+	margin:1%;
+}
+
+th{
+	padding:.5rem;
+	text-align:left;
+	font-size:1.2em;
+	color:white;
+}
+
+td{
+	border-top: solid 1px lightgray;
+	padding:.5em;
+	vertical-align:top;
+}
+
+/* zebra stripes */
+/* horizontal */
+tr:nth-child(even){
+	background-color:#eee;
+}
+/* vertical */
+td:nth-child(even),
+th:nth-child(even){
+	background-color:rgba(0,0,0,.04);
+}
+
+/* highlight on hover */
+tbody tr:hover{
+	background-color:lemonchiffon;
+}
+
+
 @media all and (min-width: 48em) and (max-width: 62em) {
 body {
 font-size:105%
@@ -179,10 +218,28 @@ width:100%
 .share li {
 display:block;
 }
+  
 .card {
 width: calc(96.5% / 1);
 height: auto;
 display: block;
 vertical-align: top;
 }
+  
+  tr{
+		display:block;
+		margin-bottom:2em;
+	}
+	td{
+		display:block;
+		border-top:none;
+	}
+	/* bold their names */
+	td:nth-child(1){
+		font-weight:bold;
+	}	
+	td:nth-child(even),
+	tr:nth-child(even){
+		background-color:transparent;
+	}
 }
