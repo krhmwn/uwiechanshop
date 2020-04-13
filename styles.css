@@ -78,6 +78,11 @@ padding:0 5em;
 text-align:center
 }
 
+img .avatar{
+width:10%;
+height:auto;
+}
+
 nav {
 padding:1.5em 0;
 border-top:1px solid #DCDCDC
@@ -143,7 +148,7 @@ padding:3% 6%
 
 article {
 width:100%
-}
+} 
 }
 
 @media only screen and (max-width: 47.9999em) {
@@ -163,5 +168,11 @@ width:100%
 
 .share li {
 display:block;
+}
+.card {
+width: calc(96.5% / 1);
+height: auto;
+display: block;
+vertical-align: top;
 }
 }
