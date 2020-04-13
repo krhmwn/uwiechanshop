@@ -143,12 +143,13 @@ table{
 	overflow:hidden; /* to clip the rounded corners */
 	margin:1%;
 }
-
+thead{
+	background-color:#d04160;
+	text-align:center;
+}
 th{
 	padding:.5rem;
 	text-align:left;
-	font-size:1.2em;
-	color:white;
 }
 
 td{
