@@ -78,7 +78,7 @@ padding:0 5em;
 text-align:center
 }
 
-img .avatar{
+.avatar{
 width:10%;
 height:auto;
 }
@@ -146,6 +146,11 @@ margin:0 4%;
 padding:3% 6%
 }
 
+.avatar{
+width:12.5%;
+height:auto;
+}
+
 article {
 width:100%
 } 
@@ -160,6 +165,11 @@ font-size:110%
 width:84%;
 margin:0 3%;
 padding:5%
+}
+  
+.avatar{
+width:15%;
+height:auto;
 }
 
 article {
