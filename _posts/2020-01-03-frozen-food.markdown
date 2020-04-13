@@ -4,7 +4,20 @@ title: "Frozen Food"
 date: 2020-01-03 24:00
 comments: false
 categories: post
-description: Hujan, merupakan kejadian alam yang seringkali ditunggu-tunggu kedatangannya apabila berbulan-bulan sebelumnya kita kesulitan air & kekeringan. 
+description: Item 1, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 8, Item 9, Item 10
 ---
 
-Hujan, merupakan kejadian alam yang seringkali ditunggu-tunggu kedatangannya apabila berbulan-bulan sebelumnya kita kesulitan air & kekeringan. Namun, tidak jarang hujan disambut dengan kekhawatiran & penuh antisipasi akan datangnya banjir atau bencana alam lainnya.
+Pembaharuan tanggal 12/04/2020
+
+| No | Nama Barang | Ukuran/Berat | Harga | Stok |
+|----|-------------|--------------|------:|-----:|
+| 1 |  |  |  |  |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
+| 4 |  |  |  |  |
+| 5 |  |  |  |  |
+| 6 |  |  |  |  |
+| 7 |  |  |  |  |
+| 8 |  |  |  |  |
+| 9 |  |  |  |  |
+| 10 |  |  |  |  |
