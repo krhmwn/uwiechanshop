@@ -103,6 +103,13 @@ margin:0 auto;
 padding:2em 0
 }
 
+.card {
+width: calc(96.5% / 2);
+height: auto;
+display: inline-block;
+vertical-align: top;
+}
+
 .post {
 text-align:left;
 top:-1em
