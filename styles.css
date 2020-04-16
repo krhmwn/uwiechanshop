@@ -51,7 +51,7 @@ margin:0
 }
 
 li {
-margin:0 0.75em
+margin:0 .75em
 }
 
 img {
@@ -78,9 +78,9 @@ padding:0 5em;
 text-align:center
 }
 
-.avatar{
+.avatar {
 width:10%;
-height:auto;
+height:auto
 }
 
 nav {
@@ -94,7 +94,7 @@ list-style:none
 }
 
 header {
-padding:3em 0;
+padding:3em 0
 }
 
 time {
@@ -109,10 +109,10 @@ padding:2em 0
 }
 
 .card {
-width: calc(96.5% / 2);
-height: auto;
-display: inline-block;
-vertical-align: top;
+width:calc(96.5% / 2);
+height:auto;
+display:inline-block;
+vertical-align:top
 }
 
 .post {
@@ -135,43 +135,40 @@ font-size:90%
 display:none
 }
 
-table{
-	background-color:#ffffff;
-	width:98%;
-	border-collapse:collapse;
-	margin:1%;
-}
-thead{
-	background-color:#d04160;
-	color:#fdfdfd;
-}
-th{
-	padding:.5rem;
-	text-align:left;
+table {
+background-color:#fff;
+width:98%;
+border-collapse:collapse;
+margin:1%
 }
 
-td{
-	border-top: solid 1px lightgray;
-	padding:.5em;
-	vertical-align:top;
+thead {
+background-color:#d04160;
+color:#fdfdfd
 }
 
-/* zebra stripes */
-/* horizontal */
-tr:nth-child(even){
-	background-color:#eee;
-}
-/* vertical */
-td:nth-child(even),
-th:nth-child(even){
-	background-color:rgba(0,0,0,.04);
+th {
+padding:.5rem;
+text-align:left
 }
 
-/* highlight on hover */
-tbody tr:hover{
-	background-color:lemonchiffon;
+td {
+border-top:solid 1px lightgray;
+padding:.5em;
+vertical-align:top
 }
 
+tr:nth-child(even) {
+background-color:#eee
+}
+
+td:nth-child(even),th:nth-child(even) {
+background-color:rgba(0,0,0,.04)
+}
+
+tbody tr:hover {
+background-color:#fffacd
+}
 
 @media all and (min-width: 48em) and (max-width: 62em) {
 body {
@@ -184,14 +181,14 @@ margin:0 4%;
 padding:3% 6%
 }
 
-.avatar{
+.avatar {
 width:12.5%;
-height:auto;
+height:auto
 }
 
 article {
 width:100%
-} 
+}
 }
 
 @media only screen and (max-width: 47.9999em) {
@@ -204,10 +201,10 @@ width:84%;
 margin:0 3%;
 padding:5%
 }
-  
-.avatar{
+
+.avatar {
 width:15%;
-height:auto;
+height:auto
 }
 
 article {
@@ -215,33 +212,38 @@ width:100%
 }
 
 .share li {
-display:block;
-}
-  
-.card {
-width: calc(96.5% / 1);
-height: auto;
-display: block;
-vertical-align: top;
-}
-table{
-width:100%;
+display:block
 }
 
-tr{
+.card {
+width:calc(96.5% / 1);
+height:auto;
 display:block;
-margin-bottom:0.125em;
+vertical-align:top
 }
-	td{
-		display:block;
-		border-top:none;
-	}
-	/* bold their names */
-	td:nth-child(1){
-		font-weight:bold;
-	}	
-	td:nth-child(even),
-	tr:nth-child(even){
-		background-color:transparent;
-	}
+
+table {
+width:100%
+}
+
+th {
+display:block
+}
+
+tr {
+display:block;
+margin-bottom:.125em
+}
+
+td {
+display:block
+}
+
+td:nth-child(1) {
+font-weight:700
+}
+
+td:nth-child(even),tr:nth-child(even) {
+background-color:transparent
+}
 }
