@@ -4,20 +4,22 @@ title: "Cokelat"
 date: 2020-01-10 24:00
 comments: false
 categories: post
-description: Item 1, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 8, Item 9, Item 10
+description: DELFI MALTITOS, DELFI CHIC CHOC, DELFI ALMOND, DELFI MEDE, DELFI CHACHA NUT/MILK , DELFI TREASURES SILVER/GOLD, DELFI COIN CERES FULLMILK, SILVERQUEEN BITES, SILVERQUEEN BITES ALMOND, SILVERQUEEN CHUNKY BAR TOPLES ISI 12
 ---
 
 Pembaharuan tanggal 12/04/2020
 
-| No | Nama Barang | Ukuran | Harga |
-|----|-------------|--------|------:|
-| 1 |  |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
-| 4 |  |  |  |
-| 5 |  |  |  |
-| 6 |  |  |  |
-| 7 |  |  |  |
-| 8 |  |  |  |
-| 9 |  |  |  |
-| 10 |  |  |  |
+| No | Nama Barang | Harga* 1Kg | Harga* 1/2Kg |
+|----|-------------|----------:|------------:|
+| 1 | DELFI MALTITOS | 165.000 | 85.000 |
+| 2 | DELFI CHIC CHOC | 156.000 | 82.000 |
+| 3 | DELFI ALMOND | 178.000 | 92.000 |
+| 4 | DELFI MEDE | 178.000 | 92.000 |
+| 5 | DELFI CHACHA NUT/MILK | 98.000 | 48.000 |
+| 6 | DELFI TREASURES SILVER/GOLD | 182.000 | 95.000 |
+| 7 | DELFI COIN CERES FULLMILK | 75.000 | 42.000 |
+| 8 | SILVERQUEEN BITES | 208.000 | 110.000 |
+| 9 | SILVERQUEEN BITES ALMOND | 208.000 | 110.000 |
+| 10 | SILVERQUEEN CHUNKY BAR TOPLES ISI 12 | 105.000 | 0 |
+
+*=harga dalam mata uang Rupiah (IDR)
