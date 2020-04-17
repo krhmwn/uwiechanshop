@@ -9,22 +9,20 @@ layout: default
 </article>
 <nav class="relatedpost">
 {% if moreThanOneInCategory == true %}
-2    <div class="related-posts">
-3      <h3>Other posts archived in “{{ category }}”</h3>
-4
-5      <ul>
-6        {% for post in posts %}
-7          {% unless post.url == page.url %}
-8            <li>
-9              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-10
-11              Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-12            </li>
-13          {% endunless %}
-14        {% endfor %}
-15      </ul>
-16    </div>
-17  {% endif %}
+<div class="related-posts">
+<h3>Other posts archived in “{{ category }}”</h3>
+<ul>
+{% for post in posts %}
+{% unless post.url == page.url %}
+<li>
+<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+</li>
+{% endunless %}
+{% endfor %}
+</ul>
+</div>
+{% endif %}
 </nav>
 <nav class="share">
 <ul>
