@@ -8,16 +8,23 @@ layout: default
 <time class="hide" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d-%m-%Y"}}</time>
 </article>
 <nav class="relatedpost">
-{% unless page.category == null %}
-{% capture pageCategory %}{{ page.category }}{% endcapture %}
-{% unless site.categories[pageCategory].size == 1 %}
-<ul>{% for post in site.categories[pageCategory] limit:5 %}
-{% unless post.title == page.title %}
-<li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-{% endunless %}
-{% endfor %}</ul>
-{% endunless %}
-{% endunless %}  
+{% if moreThanOneInCategory == true %}
+2    <div class="related-posts">
+3      <h3>Other posts archived in “{{ category }}”</h3>
+4
+5      <ul>
+6        {% for post in posts %}
+7          {% unless post.url == page.url %}
+8            <li>
+9              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+10
+11              Published on <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+12            </li>
+13          {% endunless %}
+14        {% endfor %}
+15      </ul>
+16    </div>
+17  {% endif %}
 </nav>
 <nav class="share">
 <ul>
