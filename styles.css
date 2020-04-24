@@ -222,27 +222,35 @@ display:block;
 vertical-align:top
 }
 
-table {
-width:100%
-}
-
-th {
-display:block
-}
-
-tr {
-display:block;
-margin-bottom:.125em
-}
-
-td {
-display:block
-}
-
-td:nth-child(1) {
-font-weight:700
-}
-
+    
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  
+  th {
+    text-align: right;
+  }
+  
+  table {
+    position: relative; 
+  }
+  
+  thead {
+    float: left;
+    white-space: nowrap;
+  }
+  
+  tbody {
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  tr {
+    display: inline-block;
+    vertical-align: top;
+  }
 td:nth-child(even),tr:nth-child(even) {
 background-color:transparent
 }
