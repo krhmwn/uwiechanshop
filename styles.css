@@ -84,7 +84,8 @@ height:auto
 }
 
 .intro {
-width:75%
+width:75%;
+margin:0 auto;
 }
 
 nav {
@@ -189,6 +190,10 @@ width:12.5%;
 height:auto
 }
 
+.intro {
+width:auto
+}
+
 article {
 width:100%
 }
@@ -208,6 +213,10 @@ padding:5%
 .avatar {
 width:15%;
 height:auto
+}
+
+.intro {
+width:auto
 }
 
 article {
