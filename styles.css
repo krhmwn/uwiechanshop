@@ -137,9 +137,8 @@ display:none
 
 table {
 background-color:#fff;
-width:98%;
+width:100%;
 border-collapse:collapse;
-margin:1%
 }
 
 thead {
@@ -148,7 +147,7 @@ color:#fdfdfd
 }
 
 th {
-padding:.5rem;
+padding:.5em;
 text-align:left
 }
 
