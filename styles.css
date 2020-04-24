@@ -183,7 +183,7 @@ font-size:105%
 }
 
 .container {
-width:80%;
+width:85%;
 margin:0 4%;
 padding:3% 6%
 }
@@ -208,7 +208,7 @@ font-size:110%
 }
 
 .container {
-width:84%;
+width:90%;
 margin:0 3%;
 padding:5%
 }
@@ -243,10 +243,6 @@ display:block
 
 th {
 text-align:right
-}
-
-th,td {
-padding:.45em .5em
 }
 
 table {
