@@ -242,6 +242,10 @@ th {
 text-align:right
 }
 
+th,td {
+padding:.5em
+}
+
 table {
 position:relative
 }
