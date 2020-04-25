@@ -7,6 +7,14 @@ layout: default
 {{content}}
 <time class="hide" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d-%m-%Y"}}</time>
 </article>
+<nav class="relatedpost">
+<ul>Temukan barang yang menarik lainnya &darr;
+{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
+{% for post in posts %}
+<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+</nav>
 <nav class="share">
 <ul>
 <li>Bagikan ke:</li>
@@ -14,13 +22,5 @@ layout: default
 <li><a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}">FB</a></li>
 <li><a href="mailto:?&body={{ site.url }}{{ page.url }}">Email</a></li>
 <li><a href="http://twitter.com/home?status={{ site.url }}{{ page.url }}">TWTR</a></li>
-</ul>
-</nav>
-<nav class="relatedpost">
-<ul>
-{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
-{% for post in posts %}
-<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-{% endfor %}
 </ul>
 </nav>
