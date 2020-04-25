@@ -271,8 +271,4 @@ tr {
 display:inline-block;
 vertical-align:top
 }
-
-td:nth-child(even),tr:nth-child(even) {
-background-color:transparent
-}
 }
