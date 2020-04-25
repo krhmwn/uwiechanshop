@@ -10,13 +10,13 @@ layout: default
 <nav class="share">
 <ul>
 <li>Bagikan ke:</li>
-<li><a href="https://api.whatsapp.com/send?text={{ site.url }}{{ page.url }}">Whatsapp</a></li>
-<li><a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}">Facebook</a></li>
+<li><a href="https://api.whatsapp.com/send?text={{ site.url }}{{ page.url }}">WA</a></li>
+<li><a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}">FB</a></li>
 <li><a href="mailto:?&body={{ site.url }}{{ page.url }}">Email</a></li>
-<li><a href="http://twitter.com/home?status={{ site.url }}{{ page.url }}">Twitter</a></li>
+<li><a href="http://twitter.com/home?status={{ site.url }}{{ page.url }}">TWTR</a></li>
 </ul>
 </nav>
-<nav>
+<nav class="relatedpost">
 <ul>
 {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
 {% for post in posts %}
