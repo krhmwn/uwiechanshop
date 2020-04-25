@@ -110,11 +110,11 @@ opacity:.5
 article {
 border-top:1px solid #DCDCDC;
 margin:0 auto;
-padding:2em 0
+padding:3em 1em
 }
 
 .card {
-width:calc(96.5% / 2);
+width:calc(90% / 2);
 height:auto;
 display:inline-block;
 vertical-align:top
@@ -131,6 +131,17 @@ top:-1em
 .share li {
 display:inline;
 list-style:none
+}
+
+.share li:last-child:before {
+content: ".";
+opacity: .5;
+padding: 0 0.5em;
+}
+
+.relatedpost li {
+display:block;
+list-style:decimal
 }
 
 footer {
@@ -230,10 +241,6 @@ width:auto
 
 article {
 width:100%
-}
-
-.share li {
-display:block
 }
 
 .card {
