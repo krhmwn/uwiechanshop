@@ -16,18 +16,11 @@ layout: default
 <li><a href="http://twitter.com/home?status={{ site.url }}{{ page.url }}">Twitter</a></li>
 </ul>
 </nav>
+<nav>
 <ul>
-        {% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
-        {% for post in posts %}
-          
-<li>
-  <a href="{{ post.url | prepend: site.baseurl }}">
-    <div class="post">
-      <div class="post-related-title">{{ post.title }}</div>
-      <p class="post-summary">{{post.content | markdownify | strip_html | truncatewords:30}}<p>
-    </div>
-  </a>
-</li>
-
-        {% endfor %}
-      </ul>
+{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
+{% for post in posts %}
+<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+</nav>
