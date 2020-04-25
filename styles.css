@@ -110,7 +110,7 @@ opacity:.5
 article {
 border-top:1px solid #DCDCDC;
 margin:0 auto;
-padding:3em 1em
+padding:3em 0em
 }
 
 .card {
@@ -119,6 +119,7 @@ height:auto;
 display:inline-block;
 vertical-align:top
 }
+
 .card:hover {
 background-color:#fffacd
 }
