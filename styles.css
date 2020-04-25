@@ -136,9 +136,9 @@ margin: 0
 }
 
 .share li:before {
-content: ".";
+content: "|";
 opacity: .5;
-padding: 0 0.45em;
+padding: 0 0.35em;
 }
 
 .share li:first-child:before {
