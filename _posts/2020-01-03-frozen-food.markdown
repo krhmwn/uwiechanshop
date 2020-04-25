@@ -9,8 +9,8 @@ description: NUGET CHARM, BASO ACI, KEBAB ORI, KEBAB MOZA, NUGET DUDA, OTAK OTAK
 
 Pembaharuan tanggal 15/04/2020
 
-| No | Nama Barang | Ukuran | Harga |
-|----|-------------|--------|------:|
+| No | Nama | Ukuran | Harga* |
+|----|------|--------|-------:|
 | 1 | NUGET CHARM | 250 Gr | 22,000 |
 | 2 | BASO ACI |  | 20,000 |
 | 3 | KEBAB ORI |  | 37,000 |
@@ -26,4 +26,4 @@ Pembaharuan tanggal 15/04/2020
 | 13 | PAKET BURGER |  | 37,000 |
 | 14 | KENTANG MYDIBEL | 1 Kg | 27,000 |
 
-*=harga dalam mata uang Rupiah (IDR)
+*=dalam mata uang Rupiah (IDR)
