@@ -184,7 +184,7 @@ font-size:105%
 }
 
 .container {
-width:95%;
+width:80%;
 margin:0 4%;
 padding:3% 6%
 }
@@ -199,7 +199,7 @@ width:auto
 }
 
 article {
-width:90%
+width:100%
 }
 }
 
@@ -209,7 +209,7 @@ font-size:110%
 }
 
 .container {
-width:95%;
+width:85%;
 margin:0 3%;
 padding:5%
 }
@@ -224,7 +224,7 @@ width:auto
 }
 
 article {
-width:90%
+width:100%
 }
 
 .share li {
