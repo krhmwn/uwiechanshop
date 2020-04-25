@@ -155,6 +155,7 @@ color:#fdfdfd
 }
 
 th {
+border-top:solid 1px lightgray;
 padding:.5em;
 text-align:left
 }
