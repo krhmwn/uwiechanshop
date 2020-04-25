@@ -9,8 +9,8 @@ description: DELFI MALTITOS, DELFI CHIC CHOC, DELFI ALMOND, DELFI MEDE, DELFI CH
 
 Pembaharuan tanggal 12/04/2020
 
-| No | Nama Barang | Harga* 1Kg | Harga* 1/2Kg |
-|----|-------------|----------:|------------:|
+| No | Nama | * 1Kg | *1/2Kg |
+|----|------|------:|-------:|
 | 1 | DELFI MALTITOS | 165.000 | 85.000 |
 | 2 | DELFI CHIC CHOC | 156.000 | 82.000 |
 | 3 | DELFI ALMOND | 178.000 | 92.000 |
