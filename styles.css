@@ -167,6 +167,10 @@ padding:.5em;
 vertical-align:top
 }
 
+td:last-child {
+border-bottom:solid 1px lightgray;
+}
+
 tr:nth-child(even) {
 background-color:#eee
 }
