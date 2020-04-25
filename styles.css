@@ -130,18 +130,22 @@ top:-1em
 
 .share li {
 display:inline;
-list-style:none
+list-style:none;
+margin: 0
 }
 
-.share li:last-child:before {
+.share li:before {
 content: ".";
 opacity: .5;
 padding: 0 0.5em;
 }
 
+.share li:first-child:before {
+content: "";
+}
+
 .relatedpost li {
-display:block;
-list-style:decimal
+text-align: left;
 }
 
 footer {
