@@ -138,11 +138,12 @@ margin: 0
 .share li:before {
 content: "|";
 opacity: .5;
-padding: 0 0.35em;
+padding: 0 0.5em;
 }
 
 .share li:first-child:before {
 content: "";
+padding: 0
 }
 
 .relatedpost li {
@@ -253,6 +254,10 @@ width:calc(100% / 1);
 height:auto;
 display:block;
 vertical-align:top
+}
+  
+.share li:before {
+padding: 0 0.25em;
 }
 
 table,thead,tbody,th,td,tr {
