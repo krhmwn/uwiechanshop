@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kacang & Kue Lebaran"
+title: "Kacang dan Kue Lebaran"
 date: 2020-01-01 24:00
 comments: false
 categories: post
