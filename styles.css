@@ -121,7 +121,8 @@ vertical-align:top
 }
 
 .card:hover {
-background-color:#fffacd
+background-color:#fffacd;
+background-image: linear-gradient(#fffacd, #fdfdfd)
 }
 
 .post {
