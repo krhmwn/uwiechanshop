@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Snack dan Makanan Ringan"
+title: "Kue Kering, Snack dan Makanan Ringan"
 date: 2020-01-02 24:00
 comments: false
 categories: post
