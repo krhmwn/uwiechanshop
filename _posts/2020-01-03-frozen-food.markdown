@@ -7,7 +7,7 @@ categories: post
 description: Roti Maryam Ori, Nuget Jofran, Sosis Bakar Belfoods, Nuget Belfoods, Kentang Howaco, Kentang Mydibel, Cimol Keju Moza, Pempek Hamer, Piscok Tape, Piscok Nangka, Piscok Durian, Cimoy Baso Aci, My Cuan, Roti Goreng Coklat, Karage Sunny Gold, Nuget Sunny Gold, Nuget Chikiwiki, Nuget Kenzler, Sosis Kingfood, Sosis Kenzler, Kebab Ori, Kebab Moza, Samosa, Pisang Coklat Keju
 ---
 
-Pembaharuan tanggal 25/04/2020
+Pembaharuan tanggal 03/09/2021
 
 | No | Nama | Ukuran | Harga* |
 |----|------|--------|-------:|
