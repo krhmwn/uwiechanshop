@@ -11,15 +11,15 @@ Pembaharuan tanggal 25/04/2020
 
 | No | Nama | * 1Kg | *1/2Kg |
 |----|------|------:|-------:|
-| 1 | DELFI MALTITOS | 165.000 | 85.000 |
-| 2 | DELFI CHIC CHOC | 156.000 | 83.000 |
-| 3 | DELFI ALMOND | 178.000 | 92.000 |
-| 4 | DELFI MEDE | 178.000 | 92.000 |
-| 5 | DELFI CHACHA NUT/MILK | 98.000 | 48.000 |
-| 6 | DELFI TREASURES SILVER/GOLD | 182.000 | 95.000 |
-| 7 | DELFI COIN CERES FULLMILK | 75.000 | 42.000 |
-| 8 | SILVERQUEEN BITES | 208.000 | 110.000 |
-| 9 | SILVERQUEEN BITES ALMOND | 208.000 | 110.000 |
-| 10 | SILVERQUEEN CHUNKY BAR TOPLES ISI 12 | 105.000 | 0 |
+| 1 | DELFI MALTITOS | sold out | sold out |
+| 2 | DELFI CHIC CHOC | sold out | sold out |
+| 3 | DELFI ALMOND | sold out | sold out |
+| 4 | DELFI MEDE | sold out | sold out |
+| 5 | DELFI CHACHA NUT/MILK | sold out | sold out |
+| 6 | DELFI TREASURES SILVER/GOLD | sold out | sold out |
+| 7 | DELFI COIN CERES FULLMILK | sold out | sold out |
+| 8 | SILVERQUEEN BITES | sold out | sold out |
+| 9 | SILVERQUEEN BITES ALMOND | sold out | sold out |
+| 10 | SILVERQUEEN CHUNKY BAR TOPLES ISI 12 | sold out | sold out |
 
 *=harga dalam mata uang Rupiah (IDR)
