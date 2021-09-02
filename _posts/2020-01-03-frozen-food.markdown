@@ -4,7 +4,7 @@ title: "Frozen Food"
 date: 2020-01-03 24:00
 comments: false
 categories: post
-description: NUGET CHARM, BASO ACI, KEBAB ORI, KEBAB MOZA, NUGET DUDA, OTAK OTAK, DIMSUM, EGGROLL, EBY FURAY, CIRENG KUAH, BATAGOR KUAH, SEBLAK KUAH, PAKET BURGER BUN, KENTANG MYDIBEL, CURRYPUFF, PIZZA MINI, KAKI NAGA, PAKET BURGER MINI EDAM, SHRIMP ROLLL
+description: Roti Maryam Ori, Nuget Jofran, Sosis Bakar Belfoods, Nuget Belfoods, Kentang Howaco, Kentang Mydibel, Cimol Keju Moza, Pempek Hamer, Piscok Tape, Piscok Nangka, Piscok Durian, Cimoy Baso Aci, My Cuan, Roti Goreng Coklat, Karage Sunny Gold, Nuget Sunny Gold, Nuget Chikiwiki, Nuget Kenzler, Sosis Kingfood, Sosis Kenzler, Kebab Ori, Kebab Moza, Samosa, Pisang Coklat Keju
 ---
 
 Pembaharuan tanggal 25/04/2020
@@ -23,7 +23,7 @@ Pembaharuan tanggal 25/04/2020
 | 10 | Piscok Nangka |  | 18,000 |
 | 11 | Piscok Durian |  | 20,000 |
 | 12 | Cimoy Baso Aci |  | 20,000 |
-| 13 | My cuan |  | 20,000 |
+| 13 | My Cuan |  | 20,000 |
 | 14 | Roti Goreng Coklat |  | 20,000 |
 | 15 | Karage Sunny Gold | 500gr | 48,500 |
 | 16 | Nuget Sunny Gold | 500gr | 47,000 |
