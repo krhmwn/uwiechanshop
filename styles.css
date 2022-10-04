@@ -173,14 +173,13 @@ color:#fdfdfd
 }
 
 th {
-border-top:solid 1px lightgray;
+border:solid 1px lightgray;
 padding:.5em;
 text-align:left
 }
 
 td {
-border-top:solid 1px lightgray;
-border-right:solid 1px lightgray;
+border:solid 1px lightgray;
 padding:.5em;
 vertical-align:top
 }
